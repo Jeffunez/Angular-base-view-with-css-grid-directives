@@ -1,0 +1,61 @@
+.full {
+ height: 100vh;
+}
+ 
+header {
+ height: 60px;
+ background-color: #ffffff;
+}
+ 
+aside {
+ background-color: #c7e853;
+}
+ 
+main {
+ background-color: #f2ef37;
+}
+ 
+footer {
+ background-color: #ff2873;
+ height: 100px;
+}
+
+.mainLoginInput{
+  height: 40px;
+  padding: 0px;
+  font-size: 15px;
+  margin: 5px 0;
+}
+
+.mainLoginInput::-webkit-input-placeholder { 
+font-family: FontAwesome;
+font-weight: normal;
+overflow: visible;
+vertical-align: top;
+display: inline-block !important;
+padding-left: 5px;
+padding-top: 2px;
+color: hsl(9, 40%, 60%);
+}
+
+.mainLoginInput::-moz-placeholder  { 
+font-family: FontAwesome;
+font-weight: normal;
+overflow: visible;
+vertical-align: top;
+display: inline-block !important;
+padding-left: 5px;
+padding-top: 2px;
+color: hsl(9, 40%, 60%);
+}
+
+.mainLoginInput:-ms-input-placeholder  { 
+font-family: FontAwesome;
+font-weight: normal;
+overflow: visible;
+vertical-align: top;
+/* display: inline-block !important; */
+padding-left: 5px;
+padding-top: 2px;
+color: hsl(9, 40%, 60%);
+}
